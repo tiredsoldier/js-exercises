@@ -7,6 +7,7 @@
   An array with numbers 0-15 has been provided.
 */
 
+<<<<<<< HEAD
 var arr = new Array(100);
 for (i = 0; i < 100; i++) {
   arr[i] = i;
@@ -24,6 +25,9 @@ arr.forEach(function(index) {
     console.log(index);
   }
 });
+=======
+var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+>>>>>>> 68319a0ab715d2ad98454fb11c2e84fc69cc79d9
 
 /* EXPECTED OUTPUT */
 
